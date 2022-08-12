@@ -1,11 +1,11 @@
-# Proton CSDA Range - Momentum/Energy convesion using NIST data base
+# Proton Momentum/Energy to CSDA convesion [NIST data base]
 
-Codes:\
-[1] Data format conversion from NIST txt file to ROOT file:\
-(Apply Friedman's Super Smoother to interpolate if no data points in between)\
+Code:\
+[1] Data format conversion (NIST txt format to ROOT format:\
+(Together with Friedman's Super Smoother for interpolation)\
 fit_csdarange_mom.C\
 fit_csdarange_ke.C\
-fit_dedx_ke.C\
+fit_dedx_ke.C
 
-[2] lazy py code to plot the converted results\
+[2] Lazy Python code to plot the results\
 draw_range_protonenergy.py
